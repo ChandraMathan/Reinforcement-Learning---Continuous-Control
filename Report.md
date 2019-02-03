@@ -54,3 +54,6 @@ Iteration 5 (final iteration): mu=0., theta=0.1, sigma=0.1, max_t=1050, number o
 
 # Ideas for Future Work 
 Neural network architecture can be modified and also hyperparameters can be modified to improve training rate.
+Weight Decay can be used to improve the scoring over long term and to ensure convergence. 
+Learning rates for actor and critic can be decreased initially to expediate the learning rate and then increase the learning rate using the weights from ealier learning rates.
+Number of nodes in the neural netwrok can be decreased to match the number of input variables, that will result in greater oscillation because the weights are more sensitive to change. However, it will help in improving learning rate.
