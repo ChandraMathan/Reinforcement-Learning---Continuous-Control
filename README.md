@@ -43,7 +43,7 @@ The observation space consists of 33 variables corresponding to position, rotati
     
  ## Usage and structure
  
-    - To train the agent run 'Continuous Control_Solution.ipynb' file. 
+    - To train the agent run 'Continuous_Control_Solution_Multiple Agents.ipynb' file. 
     
     - 'ddpg_agent.py' - Interacts with and learns from the environment. Parameters can be modified in this file.
     
