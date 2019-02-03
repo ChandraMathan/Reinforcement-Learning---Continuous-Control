@@ -36,11 +36,17 @@ There are two neural networks, one for actor and one for critic. Each Neural net
 ![Result](Results.png)
 
 Number of episodes required was roughly 240. At the start of the training, Learning rate and noise parameters was high. However, large fluctuations were observed in the rewards. Used this initial weight to continue training with lower learning rates and noise parameter.
+
 Break Down of the noise paramerts for various iterations:
+
 Iteration 1: mu=0., theta=0.9, sigma=0.9, max_t = 300, number of episodes to achieve an average of 6.71 = 86
+
 Iteration 2: mu=0., theta=0.8, sigma=0.8, max_t=400, number of episodes to achieve an average of 12.27 = 15
+
 Iteration 3: mu=0., theta=0.6, sigma=0.6, max_t=600, number of episodes to achieve an average of 17.83 = 10
+
 Iteration 4: mu=0., theta=0.4, sigma=0.4, max_t=800, number of episodes to achieve an average of 24.68 = 6
+
 Iteration 5 (final iteration): mu=0., theta=0.1, sigma=0.1, max_t=1050, number of episodes to achieve an average of 30.66 = 100
 
 30+ score is maintained for another 100 episodes as shown in the graph. The graph shows the final iteration results only.
